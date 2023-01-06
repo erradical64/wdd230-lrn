@@ -1,0 +1,94 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+nav *:nth-child(1)
+{
+    margin-right: 2rem;
+}
+section p, section a{
+    font-size:  15px;
+    padding: 6px
+}
+header {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 8fr 1fr;
+    justify-content: space-around; 
+    align-items: center; 
+}
+h1{
+    text-align: center;
+}
+
+footer{
+    padding: 25px 50px; 
+    margin-top: 0;  
+       
+}
+main{
+    max-width: 760px;
+    margin: 0 auto;
+}
+div.one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    padding: 15px;
+}
+div.two{
+    display: grid;
+}
+section.card{
+    text-align: left;
+    height: 100%;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+section.card h3{
+    text-align: center;
+    margin-top: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+section.layout{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center; 
+}
+footer p{
+    text-align: center;
+}
+#information{
+    font-size: 1em;
+    text-align: center;
+}
+img { 
+    max-width:  100%;
+}
+.user{
+    width: 250px;
+    display: grid;
+}
+img.flag{
+    width: 75px;
+    margin: 8px;
+}
+@media only screen and (min-width: 36em){
+    nav{
+        flex-direction: row-reverse;
+        justify-content: right;
+        gap: 3rem;
+    }
+    div.one, div.two
+    {
+       display: grid;
+    }
+}
