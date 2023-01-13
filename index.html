@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang = "en-US">
     <head>
+        <!--favicon done-->
+        <link rel="icon" href="images/favicon.ico">
         <meta charset="utf-8">
         <meta name="author" content="Asa Loftus Benson">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="WDD 230 - Asa Benson's Course Assignment Portal" />
+
+        <meta property="og:title" content="Asa Benson's Course Assignment Portal" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="index.html" />
+        <meta property="og:image" content="dokidoki.jpeg" />
+
         <link type="text/css" rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/normalize.css">
         <link type="text/css" rel="stylesheet" href="styles/larger.css">
         <title>WDD 230 - Portal - Asa Benson</title>
     </head>
     <body>
-        <nav>
-            <a href="https://www.linkedin.com/in/asa-benson-a4a961223?trk=people-guest_people_search-card">LinkedIn</a>
-            <a href="https://byui.edu/">BYU-Idaho</a>
+        <nav >
+            <ul class="navigation">
+            <li><a id="menu" href="#"></a></li>
+            <li><a href="#" class="active menu-item">About</a></li>
+            <li><a href="https://www.linkedin.com/in/asa-benson-a4a961223?trk=people-guest_people_search-card" class="active menu-item">LinkedIn</a></li>
+            <li><a href="https://byui.edu/" class="active menu-item">BYU-Idaho</a></li>
+              </ul>
         </nav>
+        
         <header>
             <img class="user" src="images/user.JPG" alt="My picture"/>
             <h1>Asa L. Benson</h1>
+            <div id="mode">
+                ☑️
+            </div>
         </header>
+        
         <main>
             <h2>WDD 230: Course Activity Portal</h2>
+            
             <div class="one">
                 <section class="card">
                     <h3>Learning Activities</h3>
                     <ul>
-                        <li>Week 01: <a href="https://byui-cse.github.io/wdd230-ww-course/week01/prepare-holygrail-layout.html">Grail</a> | <a href="https://byui-cse.github.io/wdd230-ww-course/week01/prepare-holygrail-layout.html">Media Query</a></li>
-                        <li>Week 02:</li>
+                        <li>Week 01:<a href="https://byui-cse.github.io/wdd230-ww-course/week01/prepare-holygrail-layout.html">Grail</a>|<a href="https://byui-cse.github.io/wdd230-ww-course/week01/prepare-holygrail-layout.html">Media Query</a></li>
+                        <li>Week 02:<a href="week02/design.html">Design</a>|<a href="week02/mondai.html">Hamburger Menu</a>|<a href="week02/bom.html">📖</a></li>
                         <li>Week 03:</li>
                         <li>Week 04:</li>
                         <li>Week 05:</li>
@@ -47,15 +66,17 @@
         <footer>
             <section class="layout">
                 <img class="flag" src="images/beikoku.png" alt="U.S. Flag"/>
-                <p id="information">©2023 Asa Loftus Benson - From the State of Utah, in the United States of America</p>
+                <p id="information">&copy;<span id="year"></span> Asa Loftus Benson - From the State of Utah, in the United States of America</p>
                 <img class="flag" src="images/utah.png" alt="Utah Flag"/>
                 
             </section>  
             <p class="highlight">
-                <script type="text/javascript"> document.write("Last Modification: " + document.lastModified);</script>
+                <span class="lastmod"></span>
             </p>
         </footer>
-
+        <script src='scripts/getdates.js'></script>
+        <script src='scripts/hamburg.js'></script>
+        <script src='scripts/kuroimode.js'></script>
     </body>
 
 </html>
