@@ -1,6 +1,6 @@
+const d = new Date();
+let yearVariable = d.getFullYear();
 
-//let oLastModif = new Date(document.lastModified);
-//let nLastModif = Date.parse(document.lastModified);
+document.querySelector("#year").innerHTML = yearVariable;
 
-var theDate = new Date(document.lastModified).toISOString().substr(5, 5).replace('-', '');
-document.write(theDate);
+document.querySelector(".lastmod").innerHTML = "Last Modification: "+document.lastModified;
