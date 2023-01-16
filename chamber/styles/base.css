@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+header, footer, footer a{
+    background-color: #2E6CA4;
+    color: white;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5{
+    font-family: "IM Fell French Canon";
+}
+
+p{
+    font-family: sans-serif;
+}
+
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+body{
+   color: #019315; 
+   margin: auto;
+}
+footer{
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 4px;
+}

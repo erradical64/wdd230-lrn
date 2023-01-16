@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav a{
+    padding: 1.5em;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+.button-box{
+    text-align:  center;
+    margin: 55px;  
+   
+}
+.join{
+    background-color: #A42212;
+    padding: 30px;  
+    border-radius: 2px;
+    font-size: 25px;
+    color: #381D2A;
+}
+.join:hover{
+
+    background-color: #ffffff;
+}
+
+ul.navigation{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    list-style: none;
+}
+p {
+    font-size: 1.5em;
+    padding: 35px;
+    text-align: center;
+}
+section.card{
+    text-align: left;
+    height: 100%;
+    background-color: beige;
+    border-radius: 4px;
+    margin: 10px;
+}
+.card p{
+    text-align: left;
+    margin: 15px;
+}
+.card h3{
+    text-align: left;
+    margin: 5px;
+}
+.hero-img{
+    width: 100%;
+}
+
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: #A42212;
+    background-color: white;
+}
+.socials{
+    align-items: center;
+    align-items: flex;
+    background-color: #381D2A;
+    text-decoration: none;
+    padding: 1rem;
+}
+.socials img{
+    
+    width: 3em;
+    
+    margin: 2px;
+}
+
+
+
+@media only screen and (min-width: 36em){
+    .socials img{
+        width: 2em;
+    }
+    .socials img:hover{
+    
+        width: 3em;
+    }
+    nav a{
+        font-size: 1.2em;
+    }
+    div.important{
+        display: grid;
+        grid-template-columns: 3fr 7fr;
+        margin: 10px;
+        padding: 15px;
+    }
+    .lower{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        margin: 10px;
+        padding: 15px;
+    }
+    .lower .card{
+        background-color: silver;
+    }
+    .join{
+        padding: 20px;  
+        font-size: 20px;
+    }
+}
