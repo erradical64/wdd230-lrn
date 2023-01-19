@@ -43,15 +43,7 @@ main{
     max-width: 760px;
     margin: 0 auto;
 }
-div.one{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 10px;
-    padding: 15px;
-}
-div.two{
-    display: grid;
-}
+
 section.card{
     text-align: left;
     height: 100%;
@@ -64,7 +56,7 @@ section.card h3{
     margin-top: 0px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-
+    
 }
 section.layout{
     display: flex;
@@ -86,10 +78,30 @@ img {
     width: 250px;
     display: grid;
 }
-img.flag{
+.flag{
     width: 75px;
     margin: 8px;
 }
+.hero {
+	position: relative;
+}
+
+.hero img {
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+.herolabel {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: radial-gradient(#fff, #9eacee);
+    border: 1px solid rgba(0,0,0,.75);
+    padding: 1.5rem;
+    opacity: 0.75;
+}
+
+
 
 #menu::before {
     content: "≡";
@@ -119,6 +131,12 @@ img.flag{
 .navigation a:hover, .navigation a:active {
 	color: black;
 	background-color: white;
+}
+div.one {
+    display: block;
+}
+iframe{
+    align-items: center;
 }
 
 
@@ -153,4 +171,14 @@ img.flag{
 	.navigation li:first-child {
 		display: none;
 	}
+    div.one{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        padding: 15px;
+    }
+    div.two{
+        display: grid;
+    }
+
 }
