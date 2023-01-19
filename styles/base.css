@@ -2,11 +2,13 @@
 
 nav{
     background-color: black;
+    
 }
 nav a:link, nav a:visited {
     color: white;
     text-decoration: none;
 }
+
 section p, section a{
     font-size:  15px;
     padding: 6px
@@ -85,4 +87,12 @@ img {
     width: 250px;
     display: grid;
     box-shadow: 1px 6px 12px black;
+}
+.herolabel p {
+	margin: 0;
+    text-align: center;
+	padding: .20rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:"Raleway";
 }
