@@ -19,7 +19,7 @@
         <title>WDD 230 - Portal - Asa Benson</title>
     </head>
     <body>
-        <nav >
+        <nav>
             <ul class="navigation">
             <li><a id="menu" href="#"></a></li>
             <li><a href="#" class="active menu-item">About</a></li>
@@ -29,7 +29,9 @@
         </nav>
         
         <header>
-            <img class="user" src="images/user.JPG" alt="My picture"/>
+            <picture>
+                <img class="user" src="images/user.webp" loading="lazy" alt="My picture"/>
+            </picture>
             <h1>Asa L. Benson</h1>
             <div id="mode">
                 ☑️
@@ -38,14 +40,21 @@
         
         <main>
             <h2>WDD 230: Course Activity Portal</h2>
-            
+            <div class="hero"> 
+                <picture>
+                    <img src="images/slc.webp" loading="lazy" alt="Salt Lake Temple"/>
+                </picture>
+                <div class="herolabel">
+                    <p>Salt Lake City Temple</p>
+                </div>
+            </div>
             <div class="one">
                 <section class="card">
                     <h3>Learning Activities</h3>
                     <ul>
                         <li>Week 01:<a href="https://byui-cse.github.io/wdd230-ww-course/week01/prepare-holygrail-layout.html">Grail</a>|<a href="https://byui-cse.github.io/wdd230-ww-course/week01/prepare-holygrail-layout.html">Media Query</a></li>
                         <li>Week 02:<a href="week02/design.html">Design</a>|<a href="week02/mondai.html">Hamburger Menu</a>|<a href="week02/bom.html">📖</a></li>
-                        <li>Week 03:</li>
+                        <li>Week 03:<!--a href="week03/lazyload.html">Lazy Load</a--><a href="images/slc.webp">🏙</a></li>
                         <li>Week 04:</li>
                         <li>Week 05:</li>
                         <li>Week 06:</li>
@@ -57,21 +66,29 @@
                 <a href="week01/chamber-site-plan.html">Providence Chamber of Commerce</a>
                 <ul>
                     <li><a href="chamber/index.html">Home Page</a></li>
+                    <li><a href="chamber/discover.html">Discover</a></li>
                 </ul>
                 
             </section>
             <section class="card">
                 <h3>Information</h3>
                 <p>Weather</p>
+                <p><span class="label">Visit Counts: </span><span class="visits"></span></p>
             </section>
             </div>
         </div>
+        <iframe  width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed?api=1&origin=Space+Needle+Seattle+WA&destination=Pike+Place+Market+Seattle+WA&travelmode=bicycling">
+        </iframe>
         </main>
         <footer>
             <section class="layout">
-                <img class="flag" src="images/beikoku.png" alt="U.S. Flag"/>
+                <picture>
+                    <img class="flag" src="images/beikoku.webp" loading="lazy" alt="U.S. Flag"/>
+                </picture>
                 <p id="information">&copy;<span id="year"></span> Asa Loftus Benson - From the State of Utah, in the United States of America</p>
-                <img class="flag" src="images/utah.png" alt="Utah Flag"/>
+                <picture>
+                    <img class="flag" src="images/utah.webp" loading="lazy" alt="Utah Flag"/>
+                </picture>
                 
             </section>  
             <p class="highlight">
