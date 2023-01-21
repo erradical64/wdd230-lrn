@@ -135,9 +135,7 @@ img {
 div.one {
     display: block;
 }
-iframe{
-    align-items: center;
-}
+
 
 
 .responsive li {
@@ -179,6 +177,14 @@ iframe{
     }
     div.two{
         display: grid;
+    }
+    div.three{
+        display: grid;
+    }
+    iframe{
+        width:600px; 
+        display:grid;
+        height:450px;
     }
 
 }
