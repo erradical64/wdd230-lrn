@@ -6,7 +6,20 @@ nav{
     justify-content: center;
     font-size: 1.2em;
 }
-
+#valley, .temple{
+    display: block;
+    align-items: center;
+    padding: 10px;
+}
+#valley img, .temple img{
+    width: 100%;
+}
+.right, .left{
+    background-color: #1C3D59;
+    color: #ffffff;
+    text-align:  center;
+    padding: 10px;
+}
 nav a{
     padding: 1.5em;
     text-align: center;
@@ -28,14 +41,14 @@ nav *:nth-child(1)
     bottom: 5px;
 }
 .join{
-    background-color: #A42212;
+    background-color: #75190F;
     padding: 14px;  
     border-radius: 2px;
     font-size: 14px;
-    color: #381D2A;
+    color: #ffffff;
 }
 .join:hover{
-
+    color: #75190F;
     background-color: #ffffff;
 }
 
@@ -51,11 +64,12 @@ p {
 section.card{
     text-align: left;
     height: 100%;
-    background-color: #2E6CA4;
+    background-color: #1C3D59;
     color: white;
     border-radius: 4px;
     margin: 10px;
 }
+
 .card p{
     text-align: left;
     margin: 15px;
@@ -78,7 +92,7 @@ header a{
     color: white;
 }
 nav a:hover{
-    color: #A42212;
+    color:#75190F;
     background-color: white;
 }
 .header{
@@ -142,6 +156,12 @@ nav a:hover{
     .socials img{
         width: 2em;
     }
+
+    .hover:hover{
+        box-shadow: 0 0 50px #333;
+        opacity: .5;
+    }
+
     .socials img:hover{
     
         width: 3em;
@@ -167,8 +187,8 @@ nav a:hover{
         padding: 15px;
     }
     .lower .card{
-        background-color: #019315;
-        color: #A42212;
+        background-color: #0BFE2C;
+        color: #75190F;
     }
     .join{
         padding: 20px;  
@@ -182,8 +202,33 @@ nav a:hover{
         text-decoration: none;
         padding: 1rem;
     }
-
-
+    #valley, .temple{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    #valley img, .temple img{
+        width: 75%;
+    }
+    .right, .left{
+        background-color: #1C3D59;
+        color: #ffffff;
+        text-align:  center;
+        margin: 45px; 
+        position: absolute;
+    }
+    .right:hover, .left:hover{
+        opacity: .6;
+        transform: scale(1.1);
+    }
+    .left{
+        left: 600px;
+        
+    }
+    .right{
+        right: 600px;
+    
+    }
 
     .navigation {
 		display: flex;
