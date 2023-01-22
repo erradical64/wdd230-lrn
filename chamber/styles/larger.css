@@ -2,27 +2,36 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
     font-size: 1.2em;
 }
+
 nav a{
     padding: 1.5em;
     text-align: center;
     padding: 1em;
+    text-decoration: none;
+
     font-size: 0.9em;
     min-width: 120px;
 }
+nav *:nth-child(1)
+{
+    margin-right: 2rem;
+}
 .button-box{
     text-align:  center;
-    margin: 55px;  
-   
+    left: 180px;
+    margin: 45px; 
+    position: absolute;
+    bottom: 5px;
 }
 .join{
     background-color: #A42212;
-    padding: 30px;  
+    padding: 14px;  
     border-radius: 2px;
-    font-size: 25px;
+    font-size: 14px;
     color: #381D2A;
 }
 .join:hover{
@@ -30,11 +39,9 @@ nav a{
     background-color: #ffffff;
 }
 
-ul.navigation{
-    display: flex;
-    gap: 1rem;
-    text-decoration: none;
-    list-style: none;
+.navigation a:hover{
+    background-color: white;
+    color:#381D2A
 }
 p {
     font-size: 1.5em;
@@ -44,7 +51,8 @@ p {
 section.card{
     text-align: left;
     height: 100%;
-    background-color: beige;
+    background-color: #2E6CA4;
+    color: white;
     border-radius: 4px;
     margin: 10px;
 }
@@ -56,8 +64,12 @@ section.card{
     text-align: left;
     margin: 5px;
 }
+.hero {
+	position: relative;
+}
 .hero-img{
     width: 100%;
+    position: relative;
 }
 
 
@@ -69,21 +81,62 @@ nav a:hover{
     color: #A42212;
     background-color: white;
 }
-.socials{
-    align-items: center;
+.header{
+    display: flex;
     align-items: flex;
+    text-decoration: none;
     background-color: #381D2A;
+
+}
+.socials{
+    background-color: #381D2A;
+    align-items: center;
+    display: flex;
+    align-items: flex;
     text-decoration: none;
     padding: 1rem;
 }
 .socials img{
     
     width: 3em;
-    
     margin: 2px;
+}
+#menu::before {
+    content: "≡";
+    font-size: 2rem;
+}
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
+.responsive li {
+	display: block;
+}
+.navigation a {
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	transition: 0.5s;
+}
+.navigation a:hover, .navigation a:active {
+	color: black;
+	background-color: white;
 }
 
 
+.responsive #menu::before {
+	content: "❌";
+}
 
 @media only screen and (min-width: 36em){
     .socials img{
@@ -95,6 +148,11 @@ nav a:hover{
     }
     nav a{
         font-size: 1.2em;
+    }
+    nav{
+        flex-direction: row-reverse;
+        justify-content: right;
+        gap: 3rem;
     }
     div.important{
         display: grid;
@@ -109,10 +167,36 @@ nav a:hover{
         padding: 15px;
     }
     .lower .card{
-        background-color: silver;
+        background-color: #019315;
+        color: #A42212;
     }
     .join{
         padding: 20px;  
         font-size: 20px;
     }
+    .socials{
+        align-items: center;
+        display: flex;
+        align-items: flex;
+        background-color: #381D2A;
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+    
 }
