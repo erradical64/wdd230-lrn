@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 header, footer, footer a{
-    background-color: #2E6CA4;
+    background-color: #1C3D59;
     color: white;
     text-decoration: none;
 }
@@ -21,7 +21,7 @@ h2{
     text-align: center;
 }
 body{
-   color: #019315; 
+   color: #1C3D59; 
    margin: auto;
 }
 footer{
