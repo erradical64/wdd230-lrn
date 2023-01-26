@@ -1,4 +1,7 @@
 @import url('https://fonts.google.com/');
+:root{
+    --blue: rgb(19, 67, 109);
+}
 
 nav{
     background-color: black;
@@ -14,7 +17,7 @@ section p, section a{
     padding: 6px
 }
 header {
-    background-color: rgb(19, 67, 109);
+    background-color: var(--blue);
     color: white;
 }
 h1{
@@ -27,7 +30,7 @@ footer{
     margin-top: 0;  
     font-family: 'Raleway';
 
-    background-color: rgb(19, 67, 109);
+    background-color: var(--blue);
     
     color: white;
        
@@ -56,7 +59,7 @@ section.card{
 }
 
 section.card h3{
-    background-color: rgb(19, 67, 109);
+    background-color: var(--blue);
     text-align: center;
     margin-top: 0px;
     border-top-left-radius: 4px;
