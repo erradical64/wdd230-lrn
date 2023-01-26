@@ -1,15 +1,52 @@
+:root{
+    --blue:rgb(19, 67, 109);
+    --red:rgb(147, 11, 39);
+}
 nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
+}
+button{
+    width: 100%;
+}
+form {
+	max-width: 480px;
+	margin: 1rem;
+    color: white;
+    text-align: right;
+	padding: 0.5rem;
+	background-color: var(--blue);
+	display: grid;
+	align-items: center;
+}
+
+.form {
+	max-width: 400px;
+	margin: 1rem;
+    color: white;
+    text-align: right;
+	padding: 0.5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+#formmessage {
+	display: none;
+	text-align: center;
+	background-color: red;
+	color: #fff;
+	padding: 0.5rem;
 }
 
 nav a {
     text-decoration: none;
     padding: 1rem;
+    text-align: center;
 }
 nav *:nth-child(1)
 {
@@ -17,7 +54,7 @@ nav *:nth-child(1)
 }
 nav a:hover{
     background-color: #ffff;
-    color: rgb(19, 67, 109);
+    color: var(--blue);
 }
 section p, section a{
     font-size:  15px;
@@ -75,8 +112,7 @@ img {
     max-width:  100%;
 }
 .user{
-    width: 250px;
-    display: grid;
+    width: 100%;
 }
 .flag{
     width: 75px;
@@ -117,6 +153,7 @@ img {
 }
 .navigation li {
 	display: none;
+    
 }
 .navigation a {
 	display: block;
@@ -145,6 +182,54 @@ div.one {
 .responsive #menu::before {
 	content: "❌";
 }
+
+
+#r {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	width: 98%;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 7px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:first-child th {
+	background-color: white;
+	color: var(--blue);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--blue);
+}
+
+th {
+	background-color: var(--blue);
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+tbody tr:nth-child(even) {
+	background-color: var(--red);
+    color: white;
+}
+
+
+
+
 @media only screen and (min-width: 36em){
     nav{
         flex-direction: row-reverse;
@@ -185,6 +270,10 @@ div.one {
         width:600px; 
         display:grid;
         height:450px;
+    }
+    .user{
+        width: 250px;
+        display: grid;
     }
 
 }
