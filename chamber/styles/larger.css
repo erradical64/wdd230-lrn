@@ -1,4 +1,11 @@
 /*-https://jigsaw.w3.org/css-validator/#validate_by_input-*/
+:root{
+    --blue: #1C3D59;
+    --crimson: #75190F;
+    --lime: #0BFE2C;
+    --purple: #381D2A;
+    --white: white;
+}
 nav{
     display: flex;
     flex-direction: column;
@@ -16,7 +23,7 @@ nav{
     width: 100%;
 }
 .right, .left{
-    background-color: #1C3D59;
+    background-color: var(--blue);
     color: #ffffff;
     text-align:  center;
     padding: 10px;
@@ -42,14 +49,14 @@ nav *:nth-child(1)
     bottom: 5px;
 }
 .join{
-    background-color: #75190F;
+    background-color: var(--crimson);
     padding: 14px;  
     border-radius: 2px;
     font-size: 14px;
-    color: #ffffff;
+    color: var(--white);
 }
 .join:hover{
-    color: #75190F;
+    color: var(--crimson);
     background-color: #ffffff;
 }
 
@@ -65,7 +72,7 @@ p {
 section.card{
     text-align: left;
     height: 100%;
-    background-color: #1C3D59;
+    background-color: var(--blue);
     color: white;
     border-radius: 4px;
     margin: 10px;
@@ -113,7 +120,7 @@ nav a:hover{
 }
 .socials img{
     
-    width: 3em;
+    width: 2em;
     margin: 2px;
 }
 #menu::before {
@@ -188,8 +195,8 @@ nav a:hover{
         padding: 15px;
     }
     .lower .card{
-        background-color: #0BFE2C;
-        color: #75190F;
+        background-color: var(--lime);
+        color: var(--crimson);
     }
     .join{
         padding: 20px;  
@@ -212,7 +219,7 @@ nav a:hover{
         width: 75%;
     }
     .right, .left{
-        background-color: #1C3D59;
+        background-color: var(--blue);
         color: #ffffff;
         text-align:  center;
         margin: 45px; 
