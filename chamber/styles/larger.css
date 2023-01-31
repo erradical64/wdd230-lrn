@@ -1,6 +1,5 @@
-/*-https://jigsaw.w3.org/css-validator/#validate_by_input-*/
 :root{
-    --blue: #1C3D59;
+    --blue: #a0aeba;
     --crimson: #75190F;
     --lime: #0BFE2C;
     --purple: #381D2A;
@@ -159,6 +158,17 @@ nav a:hover{
 .responsive #menu::before {
 	content: "❌";
 }
+form{
+    border: 35px;
+    
+}
+div.form{
+    align-items: center;
+    display: grid;
+    padding: 35px;
+}
+
+
 
 @media only screen and (min-width: 36em){
     .socials img{
@@ -251,5 +261,23 @@ nav a:hover{
 	.navigation li:first-child {
 		display: none;
 	}
+    div.form{
+        align-items: center;
+        display: grid;
+        padding: 35px;
+        width: 50%;
+        padding-left: 300px;
+    }
+    div.formhalf{
+        align-items: center;
+        display: grid;
+        text-align: right;
+        width: 60%;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+
+
     
 }
