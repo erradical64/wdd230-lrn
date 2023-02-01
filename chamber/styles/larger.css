@@ -178,6 +178,11 @@ div.form input{
 	color: #fff;
 	padding: 0.5rem;
 }
+#user-date{
+    text-align: center;
+    color: var(--crimson);
+    font-size: 15px;
+}
 
 
 
