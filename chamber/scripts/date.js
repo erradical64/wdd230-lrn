@@ -11,3 +11,7 @@ if (numVisits !== 0){
 }
 numVisits++;
 localStorage.setItem("visits-ls", numVisits);
+
+const form = document.querySelector(".form");
+const submittedTime = new Date();
+document.querySelector(".user-date").textContent = submittedTime;
