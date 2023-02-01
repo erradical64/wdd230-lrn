@@ -1,5 +1,5 @@
 :root{
-    --blue: #a0aeba;
+    --blue: #1C3D59;
     --crimson: #75190F;
     --lime: #0BFE2C;
     --purple: #381D2A;
@@ -160,12 +160,23 @@ nav a:hover{
 }
 form{
     border: 35px;
+    max-width: 480px;
     
 }
 div.form{
     align-items: center;
     display: grid;
     padding: 35px;
+}
+div.form input{
+    width: 35%;
+}
+#formmessage {
+	display: none;
+	text-align: center;
+	background-color: red;
+	color: #fff;
+	padding: 0.5rem;
 }
 
 
@@ -261,12 +272,12 @@ div.form{
 	.navigation li:first-child {
 		display: none;
 	}
-    div.form{
+    form{
         align-items: center;
         display: grid;
         padding: 35px;
         width: 50%;
-        padding-left: 300px;
+        padding-left: 380px;
     }
     div.formhalf{
         align-items: center;
@@ -275,6 +286,9 @@ div.form{
         width: 60%;
         gap: 5px;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    div.form input{
+        width: auto;
     }
     
 
