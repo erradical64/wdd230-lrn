@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <link rel="icon" href="images/favicon.ico">
+        <meta charset="utf-8">
+        <meta name="author" content="Asa Loftus Benson">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The Join Us Page for the Providence Chamber of Commerce, which is located in Providence City and also serves local areas.">
 
+        <meta property="og:title" content="Join Us Page for the Providence Chamber of Commerce">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="join.html">
+        <meta property="og:image" content="images/hero.png">
+
+        <link type="text/css" rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/normal.css">
+        <link type="text/css" rel="stylesheet" href="styles/larger.css">
+        <title>Join Us Today</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+            <div class ="socials">
+                <a href="https://facebook.com" target="_blank">
+                  <img src="images/facebook.png" loading="lazy" alt="fb icon">
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" loading="lazy" alt="instagram icon, basically facebook again, due to Meta.">
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                  <img src="images/twitter.png" loading="lazy" alt="twitter icon">
+              </a>
+            </div>
+                <nav>                   
+                    <ul class="navigation">
+                        <li><a id="menu" href="#"></a></li>
+                        <li><a href="index.html" class="active menu-item">Home</a></li>
+                        <li><a href="discover.html" class="active menu-item">Discover</a></li>
+                        <li><a href="index.html" class="active menu-item">Directory</a></li>
+                        <li><a href="join.html" class="active menu-item">Join</a></li>
+                        <li><span class="label">Visits:</span><span class="visits"></span></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hero"> 
+                <img class="hero-img" loading="lazy" src="images/hero.png" alt="A green valley">
+            </div>  
+        </header>
+        <main>
+            <h1>Join Us Today!</h1>
+            <form action="thankyou.html"> 
+                <h2>Want to send a message to us?</h2>
+                <div id="formmessage"></div>
+                <div class="form">
+                    <div class="formhalf">
+                        <label for="first_name">Your Name</label>
+                        <input type="text" id="first_name" minlength="1" maxlength="50" required placeholder="Your first name">
+                        <input type="text" id="last_name" minlength="1" maxlength="50" required placeholder="Your last name">
+
+
+
+                        <label for="email">Contact Info</label>
+                            <input type="email" id="email" name="email"  minlength="1" maxlength="100" required placeholder="Your email address">
+                            <input type="tel" id="denwa" name="phone"  minlength="1" maxlength="100" required placeholder="Your phone number">
+                        
+                    </div>
+                    <label for="membership">Membership Level (NP, Bronze, Silver, and Gold)
+	                    <input type="text" id="membership" name="membership" required pattern="[Nn][Pp]|[Bb]ronze|[Ss]ilver|[Gg]old" oninvalid="this.value('')">
+                    </label>
+                    <label for="BPTitle">Business Position Title
+                    <input type="text" id="BPTitle" minlength="1" maxlength="50" required placeholder="Your business title">  
+                    </label>
+                    
+                    <label for="describe">Business Description</label>
+                        <textarea id="describe" name="description" required placeholder="Describe your business"></textarea>
+                    
+                        <button type="submit">Submit</button>
+                        
+                        
+                </div>
+            </form>
+            
+        </main>
+        <footer>
+            <div class="layout">
+                <p id="information">&copy;<span id="year"></span> Providence Chambers of Commerce | <a href="https://erradical64.github.io/wdd230-lrn/index" target="_blank">Asa L. Benson</a> | WDD230 | <span class="lastmod"></span></p>
+            </div>  
+            
+        </footer>
+        <script src='scripts/date.js'></script>
+        <script src='scripts/hamburg.js'></script>
+        <!--script>
+            
+
+            
+            const form = document.querySelector(".form");
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const submittedTime = new Date();
+                timer = submittedTime.value;
+                localStorage.setItem('user-date', timer);
+
+                window.location.href = "thankyou.html";
+            })
+
+        </script-->
+        
+        <!--script src='scripts/kuroimode.js'></script-->
+    </body>
+
+</html>
