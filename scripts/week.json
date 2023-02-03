@@ -1,9 +1,7 @@
 {
-    "weeks" : [{
     "week01" : [{"Site Plan" : "week01/chamber-site-plan.html"}],
     "week02" : [{"Design" : "week02/design.html"}, {"Hamburger Menu" : "week02/mondai.html"}, {"📖" : "week02/bom.html"}],
     "week03" : [{"🏙" : "images/slc.webp"}],
     "week04" : [{"PseudoC" : "week04/tablebuild.html"}, {"Table" : "week04/combine.png"}],
     "week05" : [{"PseudoE" : "week05/pseudoe.html"}, {"JSON" : "week05/new-ward-members.json"}]
-    }]
 }
