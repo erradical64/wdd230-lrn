@@ -1,0 +1,7 @@
+{
+    "week01" : ["week01/chamber-site-plan.html"],
+    "week02" : ["week02/design.html", "week02/mondai.html", "week02/bom.html"],
+    "week03" : ["images/slc.webp"],
+    "week04" : ["week04/tablebuild.html", "week04/combine.png"],
+    "week05" : ["week05/pseudoe.html", "week05/new-ward-members.json"]
+}
