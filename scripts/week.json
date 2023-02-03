@@ -1,7 +1,7 @@
 {
-    "week01" : [{"Site Plan" : "week01/chamber-site-plan.html"}],
-    "week02" : [{"Design" : "week02/design.html"}, {"Hamburger Menu" : "week02/mondai.html"}, {"📖" : "week02/bom.html"}],
-    "week03" : [{"🏙" : "images/slc.webp"}],
-    "week04" : [{"PseudoC" : "week04/tablebuild.html"}, {"Table" : "week04/combine.png"}],
-    "week05" : [{"PseudoE" : "week05/pseudoe.html"}, {"JSON" : "week05/new-ward-members.json"}]
+    "week01" : [{"URL" : "week01/chamber-site-plan.html", "Name" : "Site Plan"}],
+    "week02" : [{"URL" : "week02/design.html", "Name" : "Design"}, {"URL" : "week02/mondai.html", "Name" : "Hamburger Menu"}, {"URL" : "week02/bom.html", "Name" : "📖"}],
+    "week03" : [{"URL" : "images/slc.webp", "Name" : "🏙"}],
+    "week04" : [{"URL" : "week04/tablebuild.html", "Name" : "PseudoC"}, {"URL" : "week04/combine.png", "Name" : "Table"}],
+    "week05" : [{"URL" : "week05/pseudoe.html", "Name" : "PseudoE"}, {"URL" : "week05/new-ward-members.json", "Name" : "JSON"}]
 }
