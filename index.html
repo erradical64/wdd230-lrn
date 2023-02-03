@@ -51,12 +51,12 @@
             <div class="one">
                 <section class="card">
                     <h3>Learning Activities</h3>
-                    <ul>
-                        <li>Week 01:<a href="https://byui-cse.github.io/wdd230-ww-course/week01/prepare-holygrail-layout.html">Grail</a>|<a href="https://byui-cse.github.io/wdd230-ww-course/week01/prepare-holygrail-layout.html">Media Query</a></li>
-                        <li>Week 02:<a href="week02/design.html">Design</a>|<a href="week02/mondai.html">Hamburger Menu</a>|<a href="week02/bom.html">📖</a></li>
-                        <li>Week 03:<!--a href="week03/lazyload.html">Lazy Load</a--><a href="images/slc.webp">🏙</a></li>
-                        <li>Week 04:<a href="week04/pseudo.html">PseudoC</a>|<a href="week04/tablebuild.html">Table</a>|<a href="week04/combine.png">🏙</a>|<a href="#">📝</a></li>
-                        <li>Week 05:</li>
+                    <ul id="weeks">
+                        <li>Week 01:<a class="grail" href=""></li>
+                        <li>Week 02:<a class="design" href=""></a>|<a class="ham" href=""></a>|<a class="" href=""></a></li>
+                        <li>Week 03:<a class="slc" href=""></a></li>
+                        <li>Week 04:<a class="pc" href=""></a>|<a class="table" href=""></a>|<a class="combine" href=""></a>
+                        <li>Week 05:<a class="pe" href=""></a>|<a class="new" href=""></a></li>
                         <li>Week 06:</li>
                     </ul>
                 </section>
@@ -74,9 +74,15 @@
             <section class="card">
                 <h3>Information</h3>
                 <p>Weather</p>
+                <p>Temperature is currently <span id="current-temp"></span> in Logan, Utah</p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
                 <p><span class="label">Visit Counts: </span><span class="visits"></span></p>
             </section>
             </div>
+            <div id=""></div>
         </div>
         <div class="three">
             <iframe style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed?api=1&origin=Space+Needle+Seattle+WA&destination=Pike+Place+Market+Seattle+WA&travelmode=bicycling">
@@ -102,6 +108,7 @@
                 </div>
                 <button type="button" onclick="printingValues()">Print onto table</button>
                 <button type="submit">Submit</button>
+                
             </form>
         </div>
         <table class="appear">
@@ -157,6 +164,6 @@
         <script src='scripts/getdates.js'></script>
         <script src='scripts/hamburg.js'></script>
         <script src='scripts/kuroimode.js'></script>
+        <script src='scripts/activities.js'></script>
+        <script src='scripts/weather.js'></script>
     </body>
-
-</html>
