@@ -1,0 +1,73 @@
+{
+    "familyName" : "Benson",
+    "wardTime" : 2019,
+    "familyNo" : "11, counting the four dogs",
+    "members" : [
+    {
+        "name" : "Nathan",
+        "gender" : "Male",
+        "birthYear" : 1967
+    },
+    {
+        "name" : "Sharalen",
+        "gender" : "Female",
+        "birthYear" : 1972
+    },
+    {
+        "name" : "Atticus",
+        "gender" : "Male",
+        "birthYear" : 1996
+    },
+    {
+        "name" : "Liam",
+        "gender" : "Male",
+        "birthYear" : 1998
+    },
+    {
+        "name" : "Sander",
+        "gender" : "Male",
+        "birthYear" : 1999
+    },
+    {
+        "name" : "Yale",
+        "gender" : "",
+        "birthYear" : 2001
+    },
+    {
+        "name" : "Asa",
+        "gender" : "Male",
+        "birthYear" : 2003
+    }
+    ],
+    "dogs" : [
+
+        {
+            "name" : "Wink",
+            "gender" : "Female",
+            "birthYear" : 2011,
+            "dogBreed" : "Golden Retriever"
+        },
+        {
+            "name" : "Lily",
+            "gender" : "Female",
+            "birthYear" : 2018,
+            "dogBreed" : "Golden Retriever (English Creme Variant)"
+        },
+        {
+            "name" : "Magnolia",
+            "gender" : "Female",
+            "birthYear" : 2018,
+            "dogBreed" : "Golden Retriever (English Creme Variant)"
+        },
+        {
+            "name" : "Rose",
+            "gender" : "Female",
+            "birthYear" : 2022,
+            "dogBreed" : "Golden Retriever (English Creme Variant)"
+        }
+    ]
+
+
+
+   
+  }
