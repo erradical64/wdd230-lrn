@@ -1,5 +1,4 @@
-{
-    "members": [
+    [
       {
         "name" : "Pier 49 Pizza",
         "address" : "585 W 100 N, Providence, UT 84332",
@@ -64,4 +63,3 @@
         "other" : "Restaurant"
       }
     ]
-  }
