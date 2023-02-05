@@ -2,64 +2,64 @@
       {
         "name" : "Pier 49 Pizza",
         "address" : "585 W 100 N, Providence, UT 84332",
-        "phone-number" : "(435) 713-4949",
+        "phone" : "(435) 713-4949",
         "url" : "https://www.doordash.com/store/pier-49-pizza-logan-23045237/?pickup=false",
-        "img-file-names" : "https://media2.fdncms.com/saltlake/imager/u/original/2835148/pier_49_pizza_logan.png",
-        "membership-level" : "Silver",
+        "img" : "https://media2.fdncms.com/saltlake/imager/u/original/2835148/pier_49_pizza_logan.png",
+        "membership" : "Silver",
         "other" : "Pizzeria"
       },
       {
         "name" : "The Crêpery",
         "address" : "29 W Center St, Logan, UT 84321",
-        "phone-number" : "(435) 295-4531",
+        "phone" : "(435) 295-4531",
         "url" : "https://www.the-crepery.com/logan",
-        "img-file-names" : "https://media-cdn.tripadvisor.com/media/photo-s/15/1d/82/95/store-front.jpg",
-        "membership-level" : "Gold",
+        "img" : "https://media-cdn.tripadvisor.com/media/photo-s/15/1d/82/95/store-front.jpg",
+        "membership" : "Gold",
         "other" : "Parisian Styled Restaurant"
       },
       {
         "name" : "Stacked!",
         "address" : "31 Main St, Logan, UT 84321",
-        "phone-number" : "(435) 799-7501",
+        "phone" : "(435) 799-7501",
         "url" : "https://www.stacked-pancakes.com/",
-        "img-file-names" : "https://media-cdn.tripadvisor.com/media/photo-s/15/1f/b6/17/tables-up-front-with.jpg",
-        "membership-level" : "Silver",
+        "img" : "https://media-cdn.tripadvisor.com/media/photo-s/15/1f/b6/17/tables-up-front-with.jpg",
+        "membership" : "Silver",
         "other" : "Pancake Restaurant"
       },
       {
         "name" : "Akita Ramen and Boba",
         "address" : "1300 Main St, Logan, UT 84341",
-        "phone-number" : "(307) 433-4723",
+        "phone" : "(307) 433-4723",
         "url" : "https://cyrusramsey.com/places/akita-ramen-and-boba/",
-        "img-file-names" : "https://fastly.4sqi.net/img/general/600x600/328925301_uFEqoyQ8mU9Lc_FbsY8HaVBJZmL5p3mfVrdhqB7lzXM.jpg",
-        "membership-level" : "Bronze",
+        "img" : "https://fastly.4sqi.net/img/general/600x600/328925301_uFEqoyQ8mU9Lc_FbsY8HaVBJZmL5p3mfVrdhqB7lzXM.jpg",
+        "membership" : "Bronze",
         "other" : "East Asian Restaurant"
       },
       {
         "name" : "Tandoori Oven",
         "address" : "720 E 1000 N, Logan, UT 84321",
-        "phone-number" : "(435) 750-6836",
+        "phone" : "(435) 750-6836",
         "url" : "http://tandooriovenlogan.com/",
-        "img-file-names" : "https://media-cdn.tripadvisor.com/media/photo-s/05/aa/92/2f/tandoori-oven.jpg",
-        "membership-level" : "Silver",
+        "img" : "https://media-cdn.tripadvisor.com/media/photo-s/05/aa/92/2f/tandoori-oven.jpg",
+        "membership" : "Silver",
         "other" : "South Asian Restaurant"
       },
       {
         "name" : "The Book Table",
         "address" : "29 Main St, Logan, UT 84321",
-        "phone-number" : "(435) 752-3055",
+        "phone" : "(435) 752-3055",
         "url" : "https://www.themainstreetbooktable.com/",
-        "img-file-names" : "https://cachevalleyfamilymagazine.com/wp-content/uploads/2020/05/290422_270407039652756_5770158_o-768x1024.jpg",
-        "membership-level" : "Bronze",
+        "img" : "https://cachevalleyfamilymagazine.com/wp-content/uploads/2020/05/290422_270407039652756_5770158_o-768x1024.jpg",
+        "membership" : "Bronze",
         "other" : "Bookstore"
       },
       {
         "name" : "The Bluebird",
         "address" : "19 Main St, Logan, UT 84321",
-        "phone-number" : "(435) 752-3155",
+        "phone" : "(435) 752-3155",
         "url" : "thebluebirdrestaurant.com",
-        "img-file-names" : "https://media-cdn.tripadvisor.com/media/photo-s/0d/64/52/58/bluebird-restaurant.jpg",
-        "membership-level" : "Gold",
+        "img" : "https://media-cdn.tripadvisor.com/media/photo-s/0d/64/52/58/bluebird-restaurant.jpg",
+        "membership" : "Gold",
         "other" : "Restaurant"
       }
     ]
