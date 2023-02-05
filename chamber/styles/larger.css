@@ -1,3 +1,5 @@
+/*-https://jigsaw.w3.org/css-validator/#validate_by_input-*/
+/*-//validator.w3.org/about.html-*/
 :root{
     --blue: #1C3D59;
     --crimson: #75190F;
@@ -183,7 +185,85 @@ div.form input{
     color: var(--crimson);
     font-size: 15px;
 }
+.co-menu {
+	margin: 1rem auto;
+	border: 1px solid var(--purple);
+	padding: 1rem;
+	background-color: var(--blue);
+	text-align: center;
+}
 
+.co-menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+.co-grid a {
+    font-family: "Caveat", cursive;
+    text-decoration: none;
+    color: var(--blue);
+}
+.co-grid p {
+    font-size: 15px;
+    padding: 10px;
+}
+.co-grid img{
+    height: 100px;
+    max-width: 100%;
+}
+section {
+	border: 1px solid black;
+	padding: 0.5rem;
+    height: auto;
+    margin: 0.5rem;
+	background-color: var(--lime);
+}
+caption{
+    font-size: 9px;
+}
+.co-grid section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.co-list {
+	display: flex;
+	flex-direction: column;
+}
+.co-list caption{
+    display: none;
+}
+
+.co-list section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 0;
+    font-size: 7px;
+	padding: 0.25rem;
+}
+
+
+
+.co-list section img {
+	display: none;
+}
+
+.co-list section a {
+	font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--blue);
+	font-family: Roboto, Helvetica, sans-serif;
+}
+.co-list section:nth-child(even) a {
+
+    color: var(--purple);
+}
+
+
+.co-list section:nth-child(even) {
+	background-color: var(--crimson);
+    color: var(--purple);
+}
 
 
 @media only screen and (min-width: 36em){
@@ -295,6 +375,31 @@ div.form input{
     div.form input{
         width: auto;
     }
+    .co-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        align-items: center;
+    }
+    
+    
+    
+    .co-grid section > * {
+        margin: 0.1rem;
+    }
+    .co-list section > * {
+        margin: 0 1rem;
+    }
+
+    .co-list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0;
+        font-size: 10px;
+        padding: 0.25rem;
+    }
+    
+    
+    
     
 
 
