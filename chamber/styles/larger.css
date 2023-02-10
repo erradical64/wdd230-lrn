@@ -7,6 +7,10 @@
     --purple: #381D2A;
     --white: white;
 }
+#weekday{
+    color: var(--crimson);
+    text-decoration: underline;
+}
 nav{
     display: flex;
     flex-direction: column;
@@ -15,6 +19,7 @@ nav{
     justify-content: center;
     font-size: 1.2em;
 }
+
 #valley, .temple{
     display: block;
     align-items: center;
