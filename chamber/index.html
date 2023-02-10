@@ -20,17 +20,17 @@
     <body>
         <header>
             <div class="header">
-            <div class ="socials">
-                <a href="https://facebook.com" target="_blank">
-                  <img src="images/facebook.png" loading="lazy" alt="fb icon">
-              </a>
-              <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" loading="lazy" alt="instagram icon, basically facebook again, due to Meta.">
-              </a>
-              <a href="https://twitter.com" target="_blank">
-                  <img src="images/twitter.png" loading="lazy" alt="twitter icon">
-              </a>
-            </div>
+                <div class ="socials">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.png" loading="lazy" alt="fb icon">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.png" loading="lazy" alt="instagram icon, basically facebook again, due to Meta.">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter.png" loading="lazy" alt="twitter icon">
+                    </a>
+                </div>
                 <nav >                   
                     <ul class="navigation">
                         <li><a id="menu" href="#"></a></li>
@@ -51,31 +51,24 @@
         </header>
         <main>
             <h1>Our Mission</h1>
-            <p>The Providence Chamber of Commerce acts as a economic catalyst, as well as leadership convener and community champion in the city of Providence and its neighboring cities. We promote business through member services, economic and community development, and public policy that balances economic prosperity.</p>
+            <p>The Providence Chamber of Commerce acts as a economic catalyst, as well as leadership convener and community champion in the city of Providence and its neighboring cities. We promote business through member services, economic and community development, and public policy that balances economic prosperity. <span id="weekday"></span></p>
             <div class="important">
                 <section class="card">
                     <h2>Events</h2>
-                    <p>☀️</p>
+                    <p>Every Wednesday, We have the Meet and Greet Event at 7:00 p.m! <span id="reminder"></span></p>
                 </section>
                 <section class="card">
                     <h2>Weather</h2>
-                    <p>☀️</p>
+                    <p>Temperature is currently <span id="current-temp"></span> in Providence, Utah. It will be <span id="tomorrow-temp"></span> tomorrow, and <span id="next-temp"></span> the next day. </p>
+                    <figure>
+                        <img id="weather-icon">
+                        <figcaption></figcaption>
+                    </figure>
                 </section>
             </div>
             <h2>Member Spotlights</h2>
             <div class="lower">
-                <section class="card">
-                    <h3>Thankful Transport</h3>
-                    <p></p>
-                </section>
-                <section class="card">
-                    <h3>Code Primera</h3>
-                    <p></p>
-                </section>
-                <section class="card">
-                    <h3>Build a Treefort</h3>
-                    <p></p>
-                </section>
+                
             </div>
 
         </main>
@@ -87,7 +80,8 @@
         </footer>
         <script src='scripts/date.js'></script>
         <script src='scripts/hamburg.js'></script>
-        <!--script src='scripts/kuroimode.js'></script-->
+        <script src='scripts/homeweather.js'></script>
+        <script src='scripts/random.js'></script>
     </body>
 
 </html>
