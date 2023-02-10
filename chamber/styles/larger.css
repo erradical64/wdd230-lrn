@@ -88,9 +88,22 @@ section.card{
     text-align: left;
     margin: 15px;
 }
+
+.lower .card p{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
 .card h3{
     text-align: left;
     margin: 5px;
+
+}
+.card h3 a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
 }
 .hero {
 	position: relative;
@@ -402,7 +415,22 @@ caption{
         font-size: 10px;
         padding: 0.25rem;
     }
+    .card h3{
+        text-align: left;
+        margin: 5px;
+    }
+    .card h3 a{
+        color: var(--crimson); 
+        text-decoration: none;
+    }
     
+    
+    
+    
+
+
+    
+}
     
     
     
