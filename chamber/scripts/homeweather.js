@@ -9,9 +9,9 @@ const url = 'https://api.openweathermap.org/data/2.5/weather?q=Providence,utah,u
 const triple = "https://api.openweathermap.org/data/2.5/forecast?q=Providence,utah,us&appid=322d4291ae0f74d8e7bda8c69daec31c"
 const weekd = new Date();
 weekDay = document.querySelector("#weekday");
+letKnow = document.querySelector("#reminder");
 
 let weekVariable = weekd.getDay();
-console.log(weekVariable)
 function weekday(number){
     let result;
   if (0 < number & number < 4) {
@@ -21,8 +21,17 @@ function weekday(number){
   }
   return result;
 }
+function reminder(number){
+    let result;
+  if (0 < number & number < 4) {
+    result = 'Which is coming up very soon!'
+  } else {
+    result = '';
+  }
+  return result;
+}
 
-weekday.innerHTML = weekday(weekVariable)
+letKnow.innerHTML = weekday(weekVariable)
 
 async function apiFetch() {
     try {
