@@ -18,9 +18,9 @@ function displayRandomMembers(data){
 
     headerThree1 = document.createElement("h3")
     let cName1 = document.createElement("a");
-    cName1.setAttribute("href", data.url);
     const rand1 = Math.floor(Math.random() * num.length);
     selected1 = num[rand1]
+    cName1.setAttribute("href", data[selected1].url);
     cName1.textContent = data[selected1].name
     headerThree1.appendChild(cName1)
     section1.appendChild(headerThree1)
@@ -38,9 +38,9 @@ function displayRandomMembers(data){
     section2.setAttribute("class", "card")
     headerThree2 = document.createElement("h3")
     let cName2 = document.createElement("a");
-    cName2.setAttribute("href", data.url);
     const rand2 = Math.floor(Math.random() * num2.length);
     selected2 = num2[rand2]
+    cName2.setAttribute("href", data[selected2].url);
     cName2.textContent = data[selected2].name
     headerThree2.appendChild(cName2)
     section2.appendChild(headerThree2)
@@ -58,9 +58,9 @@ function displayRandomMembers(data){
     section3.setAttribute("class", "card")
     headerThree3 = document.createElement("h3")
     let cName3 = document.createElement("a");
-    cName3.setAttribute("href", data.url);
     const rand3 = Math.floor(Math.random() * num3.length);
     selected3 = num3[rand3]
+    cName3.setAttribute("href", data[selected3].url);
     cName3.textContent = data[selected3].name
     headerThree3.appendChild(cName3)
     section3.appendChild(headerThree3)
